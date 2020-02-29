@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sleepy Typer</title>
+        <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Courier+Prime|Lobster&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Sleepy Typer</h1>
+        
+
+        <div class="info" id="worddiv">
+            Words
+        </div>
+        <div class="info" id="clockdiv">
+            <select id="timeset" onchange="getTime(this)">
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=5>5</option>
+                <option value=10>10</option>
+            </select>
+        </div>
+        <div class="info" id="accdiv">
+            Accuracy
+        </div>
+
+        <div class="Container">
+            <div class="BlockerLeft"></div>
+            <div class="TextBox" id="textdiv">
+                <!-- Word Bank -->
+            </div>
+            <div class="BlockerRight"></div>
+        </div>
+
+        <div class="Pointer">
+            ____________________
+        </div>
+
+        <input type="text" onKeyPress="submit(event)" class="InputBox" id="inputdiv">
+            
+        </input>
+
+    </body>
+    
+    <footer>
+        <script src="scripts.js"></script>
+    </footer>
+
+</html>
