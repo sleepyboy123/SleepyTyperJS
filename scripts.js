@@ -75,19 +75,15 @@ function run_clock(id, endtime) {
 		if (t.minutes == 0 && t.seconds == 0) { 
 			clearInterval(timeinterval); 
 			clock.innerHTML = correctwordcounter / time_in_minutes + " WPM";
+			document.getElementById("inputdiv").disabled = true;
 			alert("Time's Up!");
 			document.getElementById('inputdiv').value = "";
-			document.getElementById("inputdiv").disabled = true;
 		}
 	}
 	// run function once at first to avoid delay
 	update_clock(); 
 	var timeinterval = setInterval(update_clock, 1000);
 }
-
-// Alert Function
-
-
 
 // Check word
 
