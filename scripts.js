@@ -14,7 +14,22 @@ function getTime(selectObject) {
 	window.time_in_minutes = parseInt(selectObject.value);
 }
 
-wordbank = ['never', 'soon', 'into', 'sea', 'also', 'who', 'without', 'fire', 'got', 'only', 'which', 'because', 'much', 'could', 'different', 'close', 'us', 'watch', 'what', 'girl', 'our', 'more', 'help', 'ask', 'begin', 'its', 'new', 'move', 'a', 'with', 'look', 'enough', 'he', 'well', 'often', 'point', 'over', 'will', 'seem', 'grow', 'off', 'line', 'me', 'spell', 'live', 'walk', 'start', 'come', 'see', 'sometimes', 'saw', 'life', 'near', 'turn', 'had', 'and', 'we', 'but', 'I', 'every', 'leave', 'school', 'night', 'both', 'part', 'many', 'list', 'not', 'use', 'small', 'above', 'those', 'boy', 'as', 'where', 'far', 'car', 'by', 'follow', 'home', 'big', 'at', 'few', 'house', 'again', 'story', 'why', 'hard', 'have', 'here', 'were', 'upon', 'answer', 'make', 'their', 'came', 'good', 'they', 'large', 'she', 'black', 'open', 'song', 'place', 'end', 'how', 'all', 'keep', 'of', 'form', 'from', 'these', 'land', 'sun', 'earth', 'paper', 'high', 'world', 'be', 'group', 'very', 'almost', 'up', 'even', 'his', 'own', 'feet', 'little', 'below', 'side', 'took', 'young', 'did', 'back', 'was', 'country', 'know', 'hear', 'other', 'that', 'way', 'want', 'book', 'day', 'give', 'another', 'really', 'study', 'tree', 'when', 'after', 'think', 'state', 'too', 'play', 'two', 'went', 'old', 'water', 'or', 'around', 'mean', 'take', 'cut', 'learn', 'mother', 'it', 'add', 'before', 'plant', 'run', 'later', 'carry', 'work', 'talk', 'must', 'you', 'should', 'an', 'away', 'is', 'important', 'eye', 'time', 'stop', 'there', 'last', 'like', 'said', 'any', 'one', 'under', 'father', 'get', 'call', 'read', 'about', 'them', 'made', 'word', 'men', 'while', 'family', 'great', 'show', 'might', 'go', 'man', 'put', 'write', 'sound', 'then', 'tell', 'war', 'through', 'does', 'may', 'out', 'three', 'being', 'page', 'oil', 'children', 'hand', 'along', 'for', 'air', 'first', 'change', 'next', 'second', 'thing', 'such', 'still', 'thought', 'between', 'together', 'has', 'red', 'so', 'miss', 'mile', 'her', 'idea', 'example', 'eat', 'same', 'let', 'than', 'been', 'river', 'no', 'him', 'city', 'best', 'need', 'just', 'something', 'find', 'on', 'number', 'some', 'this', 'once', 'face', 'do', 'long', 'say', 'your', 'left', 'year', 'try', 'light', 'fall', 'to', 'can', 'if', 'food', 'head', 'set', 'animal', 'began', 'would', 'my', 'the', 'right', 'kind', 'down', 'four', 'each', 'are', 'white', 'name', 'found', 'until', 'people', 'now', 'always', 'most', 'in', 'letter'];
+wordbank = ['never', 'soon', 'into', 'sea', 'also', 'who', 'without', 'fire', 'got', 'only', 'which', 'because', 'much', 'could', 'different', 'close', 
+'us', 'watch', 'what', 'girl', 'our', 'more', 'help', 'ask', 'begin', 'its', 'new', 'move', 'a', 'with', 'look', 'enough', 'he', 'well', 'often', 'point', 
+'over', 'will', 'seem', 'grow', 'off', 'line', 'me', 'spell', 'live', 'walk', 'start', 'come', 'see', 'sometimes', 'saw', 'life', 'near', 'turn', 'had', 
+'and', 'we', 'but', 'I', 'every', 'leave', 'school', 'night', 'both', 'part', 'many', 'list', 'not', 'use', 'small', 'above', 'those', 'boy', 'as', 'where', 
+'far', 'car', 'by', 'follow', 'home', 'big', 'at', 'few', 'house', 'again', 'story', 'why', 'hard', 'have', 'here', 'were', 'upon', 'answer', 'make', 'their', 
+'came', 'good', 'they', 'large', 'she', 'black', 'open', 'song', 'place', 'end', 'how', 'all', 'keep', 'of', 'form', 'from', 'these', 'land', 'sun', 'earth', 
+'paper', 'high', 'world', 'be', 'group', 'very', 'almost', 'up', 'even', 'his', 'own', 'feet', 'little', 'below', 'side', 'took', 'young', 'did', 'back', 'was', 
+'country', 'know', 'hear', 'other', 'that', 'way', 'want', 'book', 'day', 'give', 'another', 'really', 'study', 'tree', 'when', 'after', 'think', 'state', 'too', 
+'play', 'two', 'went', 'old', 'water', 'or', 'around', 'mean', 'take', 'cut', 'learn', 'mother', 'it', 'add', 'before', 'plant', 'run', 'later', 'carry', 'work', 
+'talk', 'must', 'you', 'should', 'an', 'away', 'is', 'important', 'eye', 'time', 'stop', 'there', 'last', 'like', 'said', 'any', 'one', 'under', 'father', 'get', 
+'call', 'read', 'about', 'them', 'made', 'word', 'men', 'while', 'family', 'great', 'show', 'might', 'go', 'man', 'put', 'write', 'sound', 'then', 'tell', 'war', 
+'through', 'does', 'may', 'out', 'three', 'being', 'page', 'oil', 'children', 'hand', 'along', 'for', 'air', 'first', 'change', 'next', 'second', 'thing', 'such', 
+'still', 'thought', 'between', 'together', 'has', 'red', 'so', 'miss', 'mile', 'her', 'idea', 'example', 'eat', 'same', 'let', 'than', 'been', 'river', 'no', 'him', 
+'city', 'best', 'need', 'just', 'something', 'find', 'on', 'number', 'some', 'this', 'once', 'face', 'do', 'long', 'say', 'your', 'left', 'year', 'try', 'light', 
+'fall', 'to', 'can', 'if', 'food', 'head', 'set', 'animal', 'began', 'would', 'my', 'the', 'right', 'kind', 'down', 'four', 'each', 'are', 'white', 'name', 'found', 
+'until', 'people', 'now', 'always', 'most', 'in', 'letter'];
 
 // Shuffle Array
 
@@ -60,13 +75,19 @@ function run_clock(id, endtime) {
 		if (t.minutes == 0 && t.seconds == 0) { 
 			clearInterval(timeinterval); 
 			clock.innerHTML = correctwordcounter / time_in_minutes + " WPM";
-			alert("Time's Up!")
+			alert("Time's Up!");
+			document.getElementById('inputdiv').value = "";
+			document.getElementById("inputdiv").disabled = true;
 		}
 	}
 	// run function once at first to avoid delay
 	update_clock(); 
 	var timeinterval = setInterval(update_clock, 1000);
 }
+
+// Alert Function
+
+
 
 // Check word
 

@@ -45,25 +45,6 @@ select {
     overflow: hidden;
 }
 
-.BlockerLeft {
-    background-color: #262626;
-    position: absolute;
-    width: 15%;
-    height: 30px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-.BlockerRight {
-    background-color: #262626;
-    position: absolute;
-    width: 15%;
-    height: 30px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    right: 0;
-}
-
 .TextBox {
     color: white;
     text-align: center;
