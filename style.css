@@ -33,6 +33,7 @@ select {
     font-family: 'Lobster', cursive;
     font-size: 40px;
     float: left;
+    margin-top: 30px;
     width: 33.33%;
 }
 
@@ -40,7 +41,7 @@ select {
     width: 100%;
     height: 55px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 150px;
     display: block;
     overflow: hidden;
 }
@@ -74,7 +75,7 @@ select {
     font-size: 30px;
     padding: 10px;
     width: 70%;
-    margin-top: 35px;
+    margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
     display: block;

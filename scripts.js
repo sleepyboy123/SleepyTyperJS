@@ -17,7 +17,7 @@ function getTime(selectObject) {
 wordbank = ['never', 'soon', 'into', 'sea', 'also', 'who', 'without', 'fire', 'got', 'only', 'which', 'because', 'much', 'could', 'different', 'close', 
 'us', 'watch', 'what', 'girl', 'our', 'more', 'help', 'ask', 'begin', 'its', 'new', 'move', 'a', 'with', 'look', 'enough', 'he', 'well', 'often', 'point', 
 'over', 'will', 'seem', 'grow', 'off', 'line', 'me', 'spell', 'live', 'walk', 'start', 'come', 'see', 'sometimes', 'saw', 'life', 'near', 'turn', 'had', 
-'and', 'we', 'but', 'I', 'every', 'leave', 'school', 'night', 'both', 'part', 'many', 'list', 'not', 'use', 'small', 'above', 'those', 'boy', 'as', 'where', 
+'and', 'we', 'but', 'every', 'leave', 'school', 'night', 'both', 'part', 'many', 'list', 'not', 'use', 'small', 'above', 'those', 'boy', 'as', 'where', 
 'far', 'car', 'by', 'follow', 'home', 'big', 'at', 'few', 'house', 'again', 'story', 'why', 'hard', 'have', 'here', 'were', 'upon', 'answer', 'make', 'their', 
 'came', 'good', 'they', 'large', 'she', 'black', 'open', 'song', 'place', 'end', 'how', 'all', 'keep', 'of', 'form', 'from', 'these', 'land', 'sun', 'earth', 
 'paper', 'high', 'world', 'be', 'group', 'very', 'almost', 'up', 'even', 'his', 'own', 'feet', 'little', 'below', 'side', 'took', 'young', 'did', 'back', 'was', 
