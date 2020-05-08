@@ -1,2 +1,2 @@
 # SleepyTyperJS
-Typing game made using JS
+A typing game created using Vanilla JS
